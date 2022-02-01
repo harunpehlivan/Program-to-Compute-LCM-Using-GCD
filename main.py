@@ -9,8 +9,7 @@ def compute_gcd(x, y):
 
 # This function computes LCM
 def compute_lcm(x, y):
-   lcm = (x*y)//compute_gcd(x,y)
-   return lcm
+   return (x*y)//compute_gcd(x,y)
 
 num1 = 54
 num2 = 24 
